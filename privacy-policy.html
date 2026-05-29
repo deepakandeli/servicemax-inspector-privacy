@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — ServiceMax Inspector</title>
+  <meta name="description" content="Privacy policy for the ServiceMax Inspector Chrome extension. The extension does not collect, transmit, or share any personal data.">
+  <meta name="robots" content="index, follow">
+  <style>
+    :root {
+      --ink:        #1b1b1b;
+      --ink-soft:   #4b5563;
+      --muted:      #6b7280;
+      --rule:       #e5e7eb;
+      --bg:         #ffffff;
+      --bg-soft:    #f7f8fa;
+      --accent:     #0b5cab;
+      --accent-bg:  #eaf2fb;
+      --mono:       ui-monospace, SFMono-Regular, "Cascadia Mono", Menlo, Consolas, monospace;
+      --sans:       -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, "Helvetica Neue", Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: var(--sans);
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.6;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+    .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 24px 96px;
+    }
+    header.doc {
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 28px;
+      line-height: 1.25;
+      margin: 0 0 8px;
+      letter-spacing: -0.01em;
+    }
+    .product {
+      color: var(--muted);
+      font-size: 14px;
+      margin: 0;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px 24px;
+      margin-top: 16px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .meta b { color: var(--ink); font-weight: 600; }
+    h2 {
+      font-size: 19px;
+      margin: 40px 0 12px;
+      letter-spacing: -0.005em;
+    }
+    h3 {
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--ink-soft);
+      margin: 24px 0 8px;
+    }
+    p { margin: 0 0 14px; color: var(--ink); }
+    ul { margin: 0 0 16px; padding-left: 22px; }
+    li { margin: 4px 0; }
+    code, .dom {
+      font-family: var(--mono);
+      font-size: 13.5px;
+      background: var(--bg-soft);
+      padding: 1px 6px;
+      border-radius: 4px;
+      color: var(--ink);
+    }
+    .callout {
+      border: 1px solid var(--rule);
+      border-left: 3px solid var(--accent);
+      background: var(--accent-bg);
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin: 16px 0 24px;
+      font-size: 14.5px;
+    }
+    .callout p:last-child { margin-bottom: 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      margin: 8px 0 20px;
+    }
+    th, td {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--rule);
+      vertical-align: top;
+    }
+    th {
+      font-weight: 600;
+      color: var(--ink);
+      background: var(--bg-soft);
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+    a:hover { text-decoration: none; }
+    footer.doc {
+      margin-top: 56px;
+      padding-top: 20px;
+      border-top: 1px solid var(--rule);
+      color: var(--muted);
+      font-size: 13px;
+    }
+    @media (max-width: 520px) {
+      .wrap { padding: 32px 18px 64px; }
+      h1 { font-size: 24px; }
+      h2 { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+
+    <header class="doc">
+      <p class="product">Chrome extension</p>
+      <h1>ServiceMax Inspector — Privacy Policy</h1>
+      <div class="meta">
+        <span><b>Effective date:</b> May 28, 2026</span>
+        <span><b>Version:</b> 1.0.0</span>
+      </div>
+    </header>
+
+    <div class="callout">
+      <p><b>Short version.</b> ServiceMax Inspector runs entirely in your browser. It does not collect, transmit, share, or sell any personal data. The only network calls it makes are to the Salesforce org you are already logged into.</p>
+    </div>
+
+    <h2>1. Who this policy applies to</h2>
+    <p>This policy describes how the <b>ServiceMax Inspector</b> Chrome extension (the &ldquo;extension&rdquo;) handles information when you use it. It applies to all users of the extension and to any version published to the Chrome Web Store.</p>
+
+    <h2>2. What the extension does</h2>
+    <p>ServiceMax Inspector is a productivity toolkit for ServiceMax administrators and developers working on the Salesforce platform. When you click the extension on a Salesforce page, it lets you:</p>
+    <ul>
+      <li>Inspect the record you are viewing (including hidden and formula fields).</li>
+      <li>Run SOQL queries against your org and export the results.</li>
+      <li>Bulk insert, update, upsert, or delete records from a CSV.</li>
+      <li>Retrieve metadata, explore the REST and Tooling APIs, and view org limits.</li>
+      <li>Use ServiceMax-specific inspectors (Profile Tester, Find Test Records, and related tooling).</li>
+    </ul>
+    <p>All of these actions run against the Salesforce org you are already authenticated to. The extension performs them on your behalf, using the same authorization you would have if you were clicking through the Salesforce UI yourself.</p>
+
+    <h2>3. What information the extension reads</h2>
+    <p>To do its job, the extension reads the following information from your browser. None of it is stored on, or transmitted to, any server controlled by the extension authors.</p>
+
+    <table>
+      <thead>
+        <tr><th>What is read</th><th>Why</th><th>Where it is sent</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>The Salesforce session cookie (<code>sid</code>) for the Salesforce domain in your current tab.</td>
+          <td>To authenticate API calls back to your own Salesforce org.</td>
+          <td>Only to your own Salesforce org, in the standard <code>Authorization</code> header. Never to any third party.</td>
+        </tr>
+        <tr>
+          <td>The current page URL and record identifier (e.g. the <code>Id</code> embedded in the URL).</td>
+          <td>To scope inspection to the record you are viewing.</td>
+          <td>Stays in the browser. Not transmitted off-device.</td>
+        </tr>
+        <tr>
+          <td>Any SOQL query you type, or CSV you paste, while using the extension.</td>
+          <td>To execute the query or import you requested.</td>
+          <td>Only to your own Salesforce org's APIs.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>4. What the extension does <em>not</em> do</h2>
+    <ul>
+      <li>It does <b>not</b> collect, log, sell, share, or transfer any personal information.</li>
+      <li>It does <b>not</b> contact any server other than the Salesforce org you are logged into.</li>
+      <li>It does <b>not</b> include analytics, tracking pixels, advertising SDKs, or telemetry of any kind.</li>
+      <li>It does <b>not</b> load remote code. All JavaScript that runs is bundled in the extension package shipped through the Chrome Web Store.</li>
+      <li>It does <b>not</b> read pages outside the Salesforce domains listed in the manifest.</li>
+    </ul>
+
+    <h2>5. Permissions requested and why</h2>
+
+    <h3>cookies</h3>
+    <p>Used solely to read the active Salesforce session cookie (<code>sid</code>) so the extension can authenticate API calls back to the same Salesforce org. The cookie value never leaves your browser except in the <code>Authorization</code> header of those calls to Salesforce itself.</p>
+
+    <h3>Host permissions</h3>
+    <p>The extension is only active on Salesforce-owned domains. Salesforce serves API and UI traffic across several domains depending on org type and cloud (commercial, U.S. Government Cloud, and the Microsoft Defender for Cloud Apps proxy), so each pattern must be permitted:</p>
+    <ul>
+      <li><span class="dom">*.salesforce.com</span></li>
+      <li><span class="dom">*.force.com</span></li>
+      <li><span class="dom">*.cloudforce.com</span></li>
+      <li><span class="dom">*.visualforce.com</span></li>
+      <li><span class="dom">*.salesforce.mil</span></li>
+      <li><span class="dom">*.force.mil</span></li>
+      <li><span class="dom">*.cloudforce.mil</span></li>
+      <li><span class="dom">*.visualforce.mil</span></li>
+      <li><span class="dom">*.crmforce.mil</span></li>
+      <li><span class="dom">*.force.com.mcas.ms</span></li>
+    </ul>
+    <p>The extension does not access, read, or modify any other website.</p>
+
+    <h3>Content scripts</h3>
+    <p>A small script is injected into Salesforce pages to add a launcher button so you can open the extension from any record. The script also reads the page URL to identify the record you are viewing. It does not modify Salesforce data and does not communicate with any third-party site.</p>
+
+    <h2>6. Storage</h2>
+    <p>The extension may store small amounts of non-personal preference data (such as your last-used query, column order, or import settings) in the browser's local extension storage. This data stays on your device and is never transmitted off it. You can clear it at any time by removing the extension from Chrome.</p>
+
+    <h2>7. Third parties</h2>
+    <p>The extension does not share any data with third parties. It does not integrate with any analytics, advertising, or data-broker service.</p>
+
+    <h2>8. Children</h2>
+    <p>The extension is a developer/admin tool intended for use by Salesforce administrators and developers in a workplace context. It is not directed at children under 13, and it does not knowingly collect information from anyone.</p>
+
+    <h2>9. Open source and attribution</h2>
+    <p>ServiceMax Inspector is a fork of the open-source project <a href="https://github.com/tprouvot/Salesforce-Inspector-reloaded" rel="noopener">Salesforce Inspector Reloaded</a> by Thomas Prouvot, which is itself a derivative of the original <i>Salesforce Inspector</i> by Soren Krabbe and Jesper Kristensen. Both upstream projects are distributed under the MIT License. The license text and attribution are bundled with the extension as <code>LICENSE</code> and <code>NOTICE</code>.</p>
+
+    <h2>10. Changes to this policy</h2>
+    <p>If this policy changes in a material way, the new version will be published at the same URL as this one, and the <b>Effective date</b> at the top will be updated. Continuing to use the extension after a change indicates acceptance of the updated policy.</p>
+
+    <h2>11. Contact</h2>
+    <p>Questions about this policy, or about how the extension handles data, can be sent to:</p>
+    <p><b><a href="mailto:deepakandeli@gmail.com">deepakandeli@gmail.com</a></b></p>
+
+    <footer class="doc">
+      <p>ServiceMax Inspector is published by Deepak H Andeli (publisher name). It is provided &ldquo;as is&rdquo; under the terms of the MIT License bundled with the extension. ServiceMax and Salesforce are trademarks of their respective owners; their use in this policy refers to the products the extension interoperates with and does not imply endorsement.</p>
+    </footer>
+
+  </main>
+</body>
+</html>
